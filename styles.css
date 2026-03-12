@@ -1,0 +1,39 @@
+.balsamiq-sans-regular {
+    font-family: "Balsamiq Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.balsamiq-sans-bold {
+    font-family: "Balsamiq Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.balsamiq-sans-regular-italic {
+    font-family: "Balsamiq Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.balsamiq-sans-bold-italic {
+    font-family: "Balsamiq Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+header{
+    background-color: rgb(253, 190, 239);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Balsamiq Sans', serif;
+    }
+
+body{
+    padding-left: 20px;
+    font-family: 'Balsamiq Sans', sans-serif;
+    }
+img{
+    max-width: 150px;
+}
