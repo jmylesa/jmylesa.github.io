@@ -1,0 +1,82 @@
+.balsamiq-sans-regular {
+    font-family: "Balsamiq Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.balsamiq-sans-bold {
+    font-family: "Balsamiq Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.balsamiq-sans-regular-italic {
+    font-family: "Balsamiq Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.balsamiq-sans-bold-italic {
+    font-family: "Balsamiq Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*topnav*/
+ul.topnav {
+    flex-direction: center;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    background-color:plum;
+    list-style-type: none;
+}
+
+ul.topnav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul.topnav li {
+    float: left;
+    padding-top: 3vh;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    padding: 14px 16px;
+}
+
+ul.topnav li a:hover:not(.active) {
+    color: black;
+    background-color: rgb(225, 168, 213);
+    border-radius: 10px;
+}
+
+ul.topnav li a.active {
+    color: black;
+    background-color: rgb(190, 141, 179);
+    border-radius: 10px;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+
+header{
+    float: right;
+    font-family: 'Balsamiq Sans', serif;
+    padding-right: 1vw;
+    }
+
+body{
+    padding-left: 20px;
+    font-family: 'Balsamiq Sans', sans-serif;
+    }
+img{
+    max-width: 150px;
+}
